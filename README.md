@@ -15,6 +15,21 @@
 - Apache Server or Equivalente that can run PHP.
 
 
+## **Users Cred in the online preview:**
+### **Admin**
+    username: admin
+    password: admin
+
+### **Teacher**
+    username: teacher_1
+    password: admin
+
+### **Student**
+    username: student_1
+    password: admin
+
+
+
 ## **Database:**
 
     Comming Soon.
