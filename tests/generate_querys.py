@@ -209,12 +209,3 @@ for i in range(0, 9):
         class_index = current_class_index
         day_of_week += 1
 schedules.close()
-# create table if not exists schedules (
-#     id int primary key not null AUTO_INCREMENT,
-#     class_room_id int references resources(id),
-#     subject_id int references subjects(id),
-#     teacher_id int references teachers(id),
-#     group_id int references groups(id),
-#     day_of_week TINYINT CHECK (day_of_week BETWEEN 0 AND 6), /* NOTE: mapping int to days of week. */
-#     class_index int
-# );
